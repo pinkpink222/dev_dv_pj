@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-	DEPLOY_TRIGGER_URL = "http://43.200.47.141:8090/"
+	DEPLOY_TRIGGER_URL = "http://43.200.47.141:5000/deploy"
     }
 
     stages {
